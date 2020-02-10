@@ -1,0 +1,13 @@
+Aplikacija se standardno pokrece iz visual studija. Neophodna konekcija sa bazom podataka. U nastavku je dat kod za kreiranje baze i kolekcija kao i za ubacivanje podataka.
+
+
+use FactoryDatabase
+
+db.createCollection("Cities")
+db.createCollection("Factories")
+db.createCollection("Workers")
+
+db.Cities.insertMany([{name:"Nis",population:"250000"},{name:"Kragujevac",population:"150000"}])
+
+
+db.Factories.insertMany([{name:"Johnson Electric",city:"Nis",CEO:"Patrick Shui-Chung Wang",areaOfExpertise:"Electronical components"},{name:"Zumtobel",city:"Nis",CEO:"Alfred Felder",areaOfExpertise:"Lights"},{name:"IMI",city:"Nis",CEO:"Arthur Tan",areaOfExpertise:"Electronical components"},{name:"Philip Morris",city:"Nis",CEO:"Andre Calantzopoulos",areaOfExpertise:"Cigarettes"},{name:"Leoni",city:"Nis",CEO:"Aldo Camper",areaOfExpertise:"Automotive industry"},{name:"Fiat",city:"Kragujevac",CEO:"Olivier Francois",areaOfExpertise:"Automotive industry"},{name:"Yanfeng",city:"Kragujevac",CEO:"Steve Meszaros",areaOfExpertise:"Automotive industry"}])
