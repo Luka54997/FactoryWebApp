@@ -1,0 +1,48 @@
+﻿@model List<DataLayer.Models.Factory>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@foreach (var factory in Model)
+{
+    <h1 style="font-weight:bold;">@factory.City</h1>
+    break;
+}
+
+<h3>Factory list</h3>
+
+
+<div id="tableDiv">
+    <table class="table">
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Area of Expertise</th>
+                <th>CEO</th>
+
+            </tr>
+
+        </thead>
+
+
+        <tbody>
+            @foreach (var factory in Model)
+            {
+                <tr>
+                    <td>@Html.ActionLink(factory.Name, "Get", "Worker", new { id = factory.Name }, null)</td>
+                    <td>@factory.AreaOfExpertise</td>
+                    <td>@factory.CEO</td>
+                    <td>
+                    <td>@Html.ActionLink("Update", "Update", new { id = factory.Name })</td>
+                    <td>@Html.ActionLink("Add Worker", "Insert", "Worker", new { id = factory.Name })</td>
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+
+
+</div>

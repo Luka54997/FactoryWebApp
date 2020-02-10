@@ -1,0 +1,49 @@
+﻿@model List<DataLayer.Models.Worker>
+@{
+    ViewData["Title"] = "Get";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@foreach (var worker in Model)
+{
+    <h1 style="font-weight:bold;">@worker.Factory</h1>
+    break;
+}
+
+<h3>Worker List</h3>
+
+
+
+
+<div id="tableDiv">
+    <table class="table">
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Salary</th>
+
+            </tr>
+
+        </thead>
+
+
+        <tbody>
+            @foreach (var worker in Model)
+            {
+                <tr>
+                    <td>@worker.Name</td>
+                    <td>@worker.Age</td>
+                    <td>@worker.Salary</td>
+                    <td>@Html.ActionLink("Update", "Update", new { id = worker.WorkerId })</td>
+                    <td>@Html.ActionLink("Delete", "ConfirmDelete", new { id = worker.WorkerId })</td>
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+
+
+</div>

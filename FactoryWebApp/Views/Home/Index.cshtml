@@ -1,0 +1,46 @@
+﻿@model List<DataLayer.Models.City>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>City List</h2>
+<p>
+    <a asp-action="Insert">Add city</a>
+
+</p>
+
+
+<div id="tableDiv">
+    <table class="table">
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Population</th>
+
+            </tr>
+
+        </thead>
+
+
+        <tbody>
+            @foreach (var city in Model)
+            {
+            <tr>
+                <td>@Html.ActionLink(city.Name, "Get", "Factory", new { id = city.Name }, null)</td>
+                <td>@city.Population</td>
+                <td>@Html.ActionLink("Update", "Update", "Home", new { id = city.Name })</td>
+                <td>@Html.ActionLink("Add Factory", "Insert", "Factory", new { id = city.Name })</td>
+            </tr>
+            }
+
+        </tbody>
+
+    </table>
+
+
+</div>
+
+
+

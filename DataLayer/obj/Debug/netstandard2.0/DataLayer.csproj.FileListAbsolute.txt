@@ -1,0 +1,12 @@
+C:\Users\Velja\Documents\Visual Studio 2017\Projects\FactoryWebApp\DataLayer\bin\Debug\netstandard2.0\DataLayer.deps.json
+C:\Users\Velja\Documents\Visual Studio 2017\Projects\FactoryWebApp\DataLayer\bin\Debug\netstandard2.0\DataLayer.dll
+C:\Users\Velja\Documents\Visual Studio 2017\Projects\FactoryWebApp\DataLayer\obj\Debug\netstandard2.0\DataLayer.csprojAssemblyReference.cache
+C:\Users\Velja\Documents\Visual Studio 2017\Projects\FactoryWebApp\DataLayer\obj\Debug\netstandard2.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Velja\Documents\Visual Studio 2017\Projects\FactoryWebApp\DataLayer\obj\Debug\netstandard2.0\DataLayer.AssemblyInfoInputs.cache
+C:\Users\Velja\Documents\Visual Studio 2017\Projects\FactoryWebApp\DataLayer\obj\Debug\netstandard2.0\DataLayer.AssemblyInfo.cs
+C:\Users\Velja\Documents\Visual Studio 2017\Projects\FactoryWebApp\DataLayer\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.dll
+C:\Users\Velja\Documents\Visual Studio 2017\Projects\FactoryWebApp\DataLayer\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.xml
+C:\Users\Velja\Documents\Visual Studio 2017\Projects\FactoryWebApp\DataLayer\obj\Debug\netstandard2.0\DataLayer.csproj.CopyComplete
+C:\Users\Velja\Documents\Visual Studio 2017\Projects\FactoryWebApp\DataLayer\bin\Debug\netstandard2.0\DataLayer.pdb
+C:\Users\Velja\Documents\Visual Studio 2017\Projects\FactoryWebApp\DataLayer\obj\Debug\netstandard2.0\DataLayer.dll
+C:\Users\Velja\Documents\Visual Studio 2017\Projects\FactoryWebApp\DataLayer\obj\Debug\netstandard2.0\DataLayer.pdb
